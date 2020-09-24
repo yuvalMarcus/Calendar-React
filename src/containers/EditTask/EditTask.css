@@ -1,0 +1,41 @@
+.EditTaskContainer {
+    width: 90%;
+    margin: 20px auto;
+    padding: 0 20px 20px 20px;
+    overflow: hidden;
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    background: #fff;
+    max-width: 1200px;
+}
+.EditTaskContainer label {
+    background: #f5f7fa;
+    padding: 5px;
+    display: block;
+    margin-bottom: 10px;
+}
+.EditTaskContainer .Field {
+    margin-bottom: 20px;
+}
+.EditTaskContainer .Field input, .EditTaskContainer .Field select, .EditTaskContainer .Field textarea {
+    width: 100%;
+    border: 1px solid #c7c7c7;
+    padding: 5px;
+    border-radius: 0;
+    box-sizing: border-box;
+}
+.EditTaskContainer .Field input:focus {
+    border-radius: 0;
+}
+.EditTaskSubmit {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #2196F3;
+    border: 1px solid #2a2e2f;
+    color: #fff;
+    padding: 10px;
+    font-weight: 600;
+}
+.EditTaskContainer .react-datepicker-wrapper {
+    display: block;
+}

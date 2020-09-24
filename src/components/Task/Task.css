@@ -1,0 +1,38 @@
+.Task {
+    display: block;
+    padding: 8px 12px;
+    margin-top: 10px;
+    font-size: 14px;
+    position: relative;
+    text-decoration: none;
+}
+.Task.Start {
+    border-left-width: 3px;
+    border-left-style: solid;
+}
+.Task.Progress {
+    border-left-width: 3px;
+    border-left-style: solid;
+    box-sizing: border-box;
+    background-image: url("data:image/svg+xml,%3Csvg width='40' height='40' viewBox='0 0 40 40' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23f9f9fa' fill-opacity='1' fill-rule='evenodd'%3E%3Cpath d='M0 40L40 0H20L0 20M40 40V20L20 40'/%3E%3C/g%3E%3C/svg%3E");
+}
+.TaskYellow {
+    border-left-color: #fdb44d;
+    background: #fef0db;
+    color: #fc9b10;
+}
+.TaskRed {
+    border-left-color: #fa607e;
+    background: rgba(253, 197, 208, 0.7);
+    color: #f8254e;
+}
+.TaskBlue {
+    border-left-color: #4786ff;
+    background: rgba(218, 231, 255, 0.7);
+    color: #0a5eff;
+}
+.TaskGreen {
+    border-left-color: #8BC34A;
+    background: rgba(219, 255, 218, 0.7);
+    color: #4CAF50;
+}

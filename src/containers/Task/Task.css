@@ -1,0 +1,37 @@
+.SelectTaskContainer {
+    width: 90%;
+    margin: 20px auto;
+    padding: 0 20px 20px 20px;
+    overflow: hidden;
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    background: #fff;
+    max-width: 1200px;
+}
+.SelectTaskContainer .Detail {
+    background: #ececec;
+    padding: 10px;
+}
+.SelectTaskContainer .Detail .Bold {
+    font-weight: 600;
+}
+.SelectTaskContainer .Detail .Edit {
+    background-color: #9C27B0;
+    border: 1px solid #2a2e2f;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: 600;
+    margin-right: 10px;
+    font-size: 1rem;
+    text-decoration: none;
+}
+.SelectTaskContainer .Detail .Delete {
+    background-color: #F44336;
+    border: 1px solid #2a2e2f;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: 600;
+    font-size: 1rem;
+    text-decoration: none;
+    cursor: pointer;
+}

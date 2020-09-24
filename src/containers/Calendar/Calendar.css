@@ -1,0 +1,56 @@
+.Management {
+    width: 90%;
+    margin: 20px auto;
+    padding: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
+    background: #fff;
+    max-width: 1200px;
+}
+
+.CalendarContainer {
+    width: 90%;
+    margin: 20px auto;
+    overflow: hidden;
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    background: #fff;
+    max-width: 1200px;
+}
+
+.CalendarHeader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    text-align: center;
+    padding: 20px 0;
+    background: #3e3e3e;
+    color: #fff;
+    border-bottom: 1px solid rgba(166, 168, 179, 0.12);
+}
+.CalendarHeader h1 {
+    margin: 0;
+    font-size: 18px;
+}
+.calendar-header p {
+    margin: 5px 0 0 0;
+    font-size: 13px;
+    font-weight: 600;
+}
+.CalendarHeader button {
+    background: 0;
+    border: 0;
+    padding: 0;
+    color: #fff;
+    cursor: pointer;
+    outline: 0;
+}
+.CalendarHeader button.Nav {
+    background: #2196F3;
+    padding: 10px;
+}
+
+.CalendarHeader > div {
+    width: 33%;
+}

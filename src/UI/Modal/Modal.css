@@ -1,0 +1,52 @@
+.Modal {
+    position: fixed;
+    top: 10vh;
+    left: calc(50% - 15rem);
+    width: 30rem;
+    background: white;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+    z-index: 100;
+    border-radius: 7px;
+}
+.Modal h2 {
+    margin: 0;
+    padding: 1rem;
+    background: #607d8b;
+    color: white;
+    border-radius: 7px 7px 0 0;
+}
+.Modal p {
+    padding: 0 1rem;
+    margin: 0;
+}
+.ModalActions {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 0.5rem;
+}
+.Backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.75);
+    z-index: 50;
+}
+.Modal button.Close {
+    font: inherit;
+    background: #ff2058;
+    padding: 0.5rem 2rem;
+    color: white;
+    border: 1px solid #ff2058;
+    margin: 0.5rem 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.Modal button.Close:hover,
+.Modal button.Close:active {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.26);
+}
+.Modal button.Close:focus {
+    outline: none;
+}

@@ -1,0 +1,17 @@
+.DatePageContainer {
+    width: 90%;
+    margin: 20px auto;
+    padding: 0 20px 20px 20px;
+    overflow: hidden;
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    background: #fff;
+    max-width: 1200px;
+}
+.DatePageContainer .Detail {
+    background: #ececec;
+    padding: 10px;
+}
+.DatePageContainer .Detail .Bold{
+    font-weight: 600;
+}
