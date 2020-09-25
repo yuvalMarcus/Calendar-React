@@ -13,7 +13,7 @@ import './App.css';
 class App extends Component {
   render() {
     return (
-        <BrowserRouter>
+        <BrowserRouter basename="/react/calendar/" >
             <Layout>
                 <Switch>
                     <Route path="/task/:id" component={Task} />
