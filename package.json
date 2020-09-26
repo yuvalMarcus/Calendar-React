@@ -2,6 +2,7 @@
   "name": "calendarapp",
   "version": "0.1.0",
   "private": true,
+  "homepage": "/projects/react/calendar",
   "dependencies": {
     "react": "^16.13.1",
     "react-datepicker": "^3.1.3",

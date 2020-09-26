@@ -150,7 +150,7 @@ export const orderTaskInDays = tasks => {
         }
     }
 
-    console.log(items);
+    /* to fix */
 
     return items;
 };
